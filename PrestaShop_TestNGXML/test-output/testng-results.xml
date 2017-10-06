@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Smoke test" duration-ms="20189" started-at="2017-09-21T19:55:48Z" finished-at="2017-09-21T19:56:08Z">
+    <groups>
+    </groups>
+    <test name="Smoke test using Chrome" duration-ms="7038" started-at="2017-09-21T19:55:48Z" finished-at="2017-09-21T19:55:55Z">
+      <class name="com.prestashop.tests.user_account.SimpleUserAccountTest">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@42d80b78]" name="setUpTests" is-config="true" duration-ms="4233" started-at="2017-09-21T15:55:48Z" finished-at="2017-09-21T15:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="rightCredentialsTest()[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@42d80b78]" name="rightCredentialsTest" duration-ms="2651" started-at="2017-09-21T15:55:52Z" finished-at="2017-09-21T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@42d80b78]" name="tearDown" is-config="true" duration-ms="89" started-at="2017-09-21T15:55:55Z" finished-at="2017-09-21T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prestashop.tests.user_account.SimpleUserAccountTest -->
+      <class name="com.prestashop.tests.login.PositiveSignInTests">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@1e88b3c]" name="createUser" is-config="true" duration-ms="10" started-at="2017-09-21T15:55:48Z" finished-at="2017-09-21T15:55:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@1e88b3c]" name="setUpTests" is-config="true" duration-ms="4265" started-at="2017-09-21T15:55:48Z" finished-at="2017-09-21T15:55:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="rightCredentialsTest()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@1e88b3c]" name="rightCredentialsTest" duration-ms="2669" started-at="2017-09-21T15:55:52Z" finished-at="2017-09-21T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@1e88b3c]" name="tearDown" is-config="true" duration-ms="81" started-at="2017-09-21T15:55:55Z" finished-at="2017-09-21T15:55:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prestashop.tests.login.PositiveSignInTests -->
+    </test> <!-- Smoke test using Chrome -->
+    <test name="Smoke test using Firefox" duration-ms="8130" started-at="2017-09-21T19:56:00Z" finished-at="2017-09-21T19:56:08Z">
+      <class name="com.prestashop.tests.user_account.SimpleUserAccountTest">
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@13deb50e]" name="setUpTests" is-config="true" duration-ms="4492" started-at="2017-09-21T15:56:00Z" finished-at="2017-09-21T15:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="rightCredentialsTest()[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@13deb50e]" name="rightCredentialsTest" duration-ms="3094" started-at="2017-09-21T15:56:05Z" finished-at="2017-09-21T15:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prestashop.tests.user_account.SimpleUserAccountTest@13deb50e]" name="tearDown" is-config="true" duration-ms="342" started-at="2017-09-21T15:56:08Z" finished-at="2017-09-21T15:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prestashop.tests.user_account.SimpleUserAccountTest -->
+      <class name="com.prestashop.tests.login.PositiveSignInTests">
+        <test-method status="PASS" signature="createUser()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@f6c48ac]" name="createUser" is-config="true" duration-ms="1" started-at="2017-09-21T15:56:00Z" finished-at="2017-09-21T15:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="setUpTests(java.lang.String)[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@f6c48ac]" name="setUpTests" is-config="true" duration-ms="4365" started-at="2017-09-21T15:56:00Z" finished-at="2017-09-21T15:56:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTests -->
+        <test-method status="PASS" signature="rightCredentialsTest()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@f6c48ac]" name="rightCredentialsTest" duration-ms="3414" started-at="2017-09-21T15:56:05Z" finished-at="2017-09-21T15:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rightCredentialsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.prestashop.tests.login.PositiveSignInTests@f6c48ac]" name="tearDown" is-config="true" duration-ms="347" started-at="2017-09-21T15:56:08Z" finished-at="2017-09-21T15:56:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.prestashop.tests.login.PositiveSignInTests -->
+    </test> <!-- Smoke test using Firefox -->
+  </suite> <!-- Smoke test -->
+</testng-results>

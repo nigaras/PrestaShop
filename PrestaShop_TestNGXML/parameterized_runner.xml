@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Parameters test">
+	<test name="Parameters test">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="com.prestashop.tests.login.PositiveSignInTests"></class>
+			<class name="com.prestashop.tests.user_account.SimpleUserAccountTest"></class>
+		</classes>
+	</test>
+</suite>
